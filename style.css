@@ -1,0 +1,138 @@
+@font-face {
+  font-family: "Proxima Nova R";
+  src: url("fonts/Proxima_Nova_R.otf");
+}
+
+@font-face {
+  font-family: "Proxima Nova SB";
+  src: url("fonts/Proxima_Nova_SB.otf");
+}
+
+@media (max-width: 978px)
+#override {
+  margin: 0;
+  padding: 1rem;
+}
+
+*, ::after, ::before {
+  box-sizing: border-box;
+}
+
+#override {
+  line-height: 1.5;
+  font-family: Proxima Nova R;
+  font-size: 1rem;
+  margin: 0 auto;
+  max-width: 42rem;
+  padding: 0 1.25rem;
+  text-align: center;
+  color: #2e353f;
+}
+
+#landing {
+  display: block;
+  padding-top: 3rem;
+  text-align: left;
+  padding-bottom: 1rem;
+  min-height: 1vh;
+}
+
+#me {
+  text-align: right;
+  float: right;
+}
+
+#me img {
+  height: 10em;
+  border-radius: 50%;
+}
+
+img {
+  vertical-align: middle;
+  border-style: none;
+}
+
+#landing .p1 {
+  font-size: 2.986rem;
+  font-family: Proxima Nova SB;
+  letter-spacing: -0.025em;
+  margin: 0 0 1rem 0;
+}
+
+h1 {
+  line-height: 1.2;
+}
+
+#stanford_red {
+  color: #B1040E;
+}
+
+#social-ul {
+  padding-left: 0;
+  margin: 0 0 2rem 0;
+}
+
+#social-ul li {
+  display: inline;
+  padding-right: 1rem;
+}
+
+li {
+  padding-bottom: 0.75em;
+}
+
+#social-ul a {
+  padding-top: 0;
+  text-decoration: none;
+  border: none;
+}
+
+#override a {
+  padding-bottom: 0.1em;
+  text-decoration: none;
+  transition: background 1s;
+  padding-top: 0.2em;
+}
+
+a {
+  color: #B1040E;
+  background-color: transparent;
+}
+
+#social-ul img {
+    height: 2.5rem;
+}
+
+p {
+  line-height: 1.625;
+  margin: 0 0 1.25em 0;
+  padding: 0;
+}
+
+p a:hover {
+  color: #8C1515;
+}
+
+.subhead {
+  font-size: 2.488rem;
+  font-family: 'Jost', sans-serif;
+  letter-spacing: -0.025em;
+  font-family: Proxima Nova SB;
+}
+
+.na_msg {
+  text-align: center;
+  padding-top: 200px;
+} 
+
+.p3 {
+  padding-top: 1em;
+}
+
+strong {
+  font-family: Proxima Nova SB;
+}
+
+ul li a:hover {
+  color: #8C1515;
+}
