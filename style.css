@@ -173,6 +173,7 @@ body {
 .page-content section h1 .content-line .content-word .serene-link a:hover {
 	text-decoration: underline;
 	color: #d57baf;
+	transition-duration: 2s;
 }
 
 .page-content footer {
