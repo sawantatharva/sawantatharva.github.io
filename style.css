@@ -20,7 +20,7 @@ div {
 }
 
 #body-content {
-	background: linear-gradient(90deg, #040404, #252525, #656565);
+	background: linear-gradient(90deg, #04619F, #252525);
 	background-size: 400% 400%;
 	animation: gradient 10s ease infinite;
 	height: 100vh;
